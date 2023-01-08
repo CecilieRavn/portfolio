@@ -1,0 +1,115 @@
+html {
+  --brand_color: #c9c9c9;
+  --secondary: #000;  
+  --space-sm: 10px;
+  --space-md: 20px;
+  --space-lg: 30px;
+  --space-xl: 40px;
+  --space-xxl: 50px;
+  --font-xxs: 20px;
+  --font-xs: 22px;
+  --font-sm: 30px;
+  --font-md: 35px;
+  --font-lg: 40px;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-small: 300;
+} 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main,
+.full {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, 1100px) 1fr;
+}
+
+.full {
+  grid-column: 1/-1;
+}
+
+main>*,
+.full>* {
+  /* main > *, .full > * */
+  grid-column: 2/3;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap;
+  list-style: NONE;
+  border-top: solid var(--secondary);
+  margin-inline: 30px;
+  padding: 10px 0px 10px 0px;
+  justify-content: center;
+  gap: 8px;
+}
+
+header a {
+  display: flex;
+  color: var(--secondary);
+  font-size: 20px;
+  padding-left: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-medium);
+}
+
+.logo {
+  width: 10%;
+  display: block;
+  margin: auto;
+}
+
+body {
+  background-color: var(--brand_color);
+}
+
+/* FONTE */
+@font-face {
+  font-family: "Overskrift";
+  src: url(font/merriweather-bolditalic-webfont.woff2);
+}
+
+@font-face {
+  font-family: "Brødtekst";
+  src: url(font/taviraj-regular-webfont.woff2);
+}
+
+h1 {
+  font-size: var(--font-md);
+  color: var(--secondary);
+  font-family: "Overskrift";
+  font-weight: var(--font-medium);
+}
+
+h2 {
+  font-size: var(--font-sm);
+  color: var(--secondary);
+  font-family: "Overskrift";
+  font-weight: var(--font-regular);
+}
+
+main a {
+  font-size: var(--font-sm);
+  color: var(--secondary);
+  font-family: "Overskrift";
+  font-weight: var(--font-regular);
+}
+
+p {
+  font-size: var(--font-xxs);
+  color: var(--secondary);
+  font-weight: var(--font-small);
+  font-family: "Brødtekst";
+}

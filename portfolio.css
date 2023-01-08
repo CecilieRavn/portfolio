@@ -1,0 +1,41 @@
+
+
+img {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 100px;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.pf {
+    text-align: center;
+    width: 1100px;
+    height: 70px;
+    border: 3px solid var(--secondary);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.border {
+    text-align: center;
+    width: 500px;
+    height: 70px;
+    border: 3px solid var(--secondary);
+    padding: 10px;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+a {
+    text-decoration: none;
+}

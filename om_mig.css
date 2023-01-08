@@ -1,0 +1,60 @@
+img {
+    width: 100%;
+}
+
+.om_mig_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 75px;
+    margin-top: 75px;
+    margin-bottom: 60px;
+}
+
+.om_mig {
+    margin-top: 100px;
+}
+
+.full {
+    background-color: white;
+}
+
+.form_felt {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.form_felt {
+    place-self: start;
+    text-align: start;
+}
+
+form {
+    padding: 10px;
+    align-content: flex-start;
+}
+input {
+    border: solid black;
+    padding: 12px;
+    background-color: var(--brand_color);
+    /*border: 3px solid var(--secondary);*/
+}
+
+#besked {
+    background-color: var(--brand_color);
+    padding: 12px;
+    border: solid black;
+    /*border: 3px solid var(--secondary);*/
+}
+
+input:focus {
+  outline: 3px solid var(--brand_color);
+}
+
+#besked:focus {
+  outline: 3px solid var(--brand_color);
+}

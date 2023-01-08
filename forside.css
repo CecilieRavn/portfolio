@@ -1,0 +1,17 @@
+
+
+@media (min-width: 1200px) {
+    body {
+        background-image: url("forside/forside.svg");
+        aspect-ratio: 1930/1080;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-image: url("forside/forside.svg");
+        aspect-ratio: 1930/1080;
+        background-repeat: repeat-y;
+    }
+}
