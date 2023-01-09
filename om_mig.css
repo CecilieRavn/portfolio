@@ -28,6 +28,7 @@ img {
 .form_felt {
     display: grid;
     grid-template-rows: 1fr;
+    margin-top: 20px;
 }
 
 .form_felt {
