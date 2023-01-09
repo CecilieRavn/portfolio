@@ -57,6 +57,7 @@ ul {
 header a {
   display: flex;
   color: var(--secondary);
+  font-size: 20px;
   padding-left: 100px;
   text-transform: uppercase;
   text-decoration: none;
@@ -100,6 +101,7 @@ h2 {
 }
 
 main a {
+  font-size: var(--font-sm);
   color: var(--secondary);
   font-family: "Overskrift";
   font-weight: var(--font-regular);

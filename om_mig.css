@@ -10,10 +10,6 @@ img {
     margin-bottom: 60px;
 }
 
-.om_mig {
-    margin-top: 100px;
-}
-
 .full {
     background-color: white;
 }
@@ -21,11 +17,6 @@ img {
 .form_felt {
     display: grid;
     grid-template-rows: 1fr;
-}
-
-.grid_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
 }
 
 .form_felt {
@@ -57,4 +48,9 @@ input:focus {
 
 #besked:focus {
   outline: 3px solid var(--brand_color);
+}
+
+form {
+    width: 50%;
+    margin-left: 300px;
 }
