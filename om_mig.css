@@ -2,12 +2,38 @@ img {
     width: 100%;
 }
 
-.om_mig_1-1 {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 75px;
-    margin-top: 75px;
-    margin-bottom: 60px;
+@media (min-width: 800px) {
+    .om_mig_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 75px;
+        margin-top: 75px;
+        margin-bottom: 60px;
+    }
+
+    form {
+        width: 50%;
+        margin-left: 300px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .order {
+        order: -1;
+    }
+
+    img {
+        width: 80%;
+        margin-left: 50px;
+    }
+
+    form {
+        width: 50%;
+        margin-left: 140px;
+    }
+
+
 }
 
 .full {
@@ -50,17 +76,19 @@ input {
     padding: 12px;
 }
 
+button {
+    border: solid black;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
 input:focus {
   outline: 3px solid var(--brand_color);
 }
 
 #besked:focus {
   outline: 3px solid var(--brand_color);
-}
-
-form {
-    width: 50%;
-    margin-left: 300px;
 }
 
 .link a {

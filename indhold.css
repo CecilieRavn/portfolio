@@ -14,23 +14,44 @@ h3 {
 
 .link {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.pilot {
-    width: 70%;
-    margin-top: 120px;
-    margin-left: 50px;
+
+
+@media (min-width: 800px) {
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .order {
+        order: -1;
+        width: 85%;
+        margin-top: 170px;
+        gap: 20px;
+    }
+
+    .pilot {
+        width: 70%;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
 }
 
-.grid_1-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
+@media (max-width: 800px) {
+    body {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 
-.order {
-    order: -1;
-    width: 85%;
-    margin-top: 170px;
-    gap: 20px;
+    .order {
+        margin-top: 30px;
+    }
+
+    .pilot {
+        width: 100%;
+        margin-top: 30px;
+    }
 }

@@ -7,14 +7,29 @@ h2 {
     margin-bottom: 20px;
 }
 
-.grid_1-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+@media (min-width: 800px) {
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 10px;
+        width: 90%;
+    }
 }
 
-img {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    gap: 10px;
-    width: 90%;
+@media (max-width: 800px) {
+    img {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 80%;
+    }
+
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
