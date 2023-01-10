@@ -28,3 +28,7 @@ h3 {
     margin-top: 10px;
 }
 
+img {
+    place-items: center;
+}
+
