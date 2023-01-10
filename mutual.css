@@ -100,6 +100,13 @@ h2 {
   font-weight: var(--font-regular);
 }
 
+h3 {
+  font-size: var(--font-xs);
+  color: var(--secondary);
+  font-family: "Overskrift";
+  font-weight: var(--font-regular);
+}
+
 main a {
   font-size: var(--font-sm);
   color: var(--secondary);
@@ -107,7 +114,7 @@ main a {
   font-weight: var(--font-regular);
 }
 
-p {
+p, a {
   font-size: var(--font-xxs);
   color: var(--secondary);
   font-weight: var(--font-small);
